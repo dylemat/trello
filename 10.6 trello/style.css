@@ -1,4 +1,22 @@
+.column-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 .column {
+	padding: 10px;
+	font-family: serif;
 	display: inline-block;
 	width: 20%;
+	background-color: pink;
+}
+.column-card-list {
+	min-height: 100px;
+}
+ul {
+	border: 1px solid black;
 }
